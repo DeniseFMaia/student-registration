@@ -7,19 +7,19 @@ public abstract class Pessoa {
     private String nome;
     private int idade;
 
-    // Construtor de Objeto Vazio
+    
     public Pessoa() {
         this(0,"",0);
     }
 
-    // Construtor de Objeto com parâmetro
+  
     public Pessoa(int id, String nome, int idade) {
         this.id = id;
         this.nome = nome;
         this.idade = idade;
     }
 
-    // Métodos GET e SET
+    
     public int getId() {
         return id;
     }

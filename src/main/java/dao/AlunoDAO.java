@@ -3,9 +3,7 @@ package dao;
 import java.util.ArrayList;
 import model.Aluno;
 
-/**
- *  Aqui vamos simular a persistência de dados.
- */
+
 public class AlunoDAO {
 
     public static ArrayList<Aluno> minhaLista = new ArrayList<>();
